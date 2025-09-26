@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Score Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Game Scoreboard</h1>
+  </header>
+  <main>
+    <section class="add-player">
+      <input type="text" id="playerName" placeholder="Enter player name" />
+      <button id="addPlayerBtn">Add Player</button>
+    </section>
+    <section class="scoreboard">
+      <table id="scoreTable">
+        <thead>
+          <tr>
+            <th>Player</th>
+            <th>Score</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <p>Developed by Jevons • Gen Z Style</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
